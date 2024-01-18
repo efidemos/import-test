@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "importtest"
+  description: "Testing importing"
+  annotations:
+    github.com/project-slug: efidemos/importtest
+    sonarqube.org/project-key: testi
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/cncf"
